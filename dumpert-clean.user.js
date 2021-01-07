@@ -5,7 +5,7 @@
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.dumpert.nl/*
-// @downloadURL  
+// @downloadURL  https://github.com/WybrenKoelmans/dumpert-clean/raw/main/dumpert-clean.user.js
 // @grant        none
 // ==/UserScript==
 
