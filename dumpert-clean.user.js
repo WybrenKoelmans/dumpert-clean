@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Dumpert cleaner
 // @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
+// @version      1.0
+// @description  Get rid of negative comments on Dumpert. Discussions about what should be banned and should not be, will be ignored.
+// @author       Wybren Koelmans
 // @match        https://www.dumpert.nl/*
 // @downloadURL  https://github.com/WybrenKoelmans/dumpert-clean/raw/main/dumpert-clean.user.js
 // @grant        none
