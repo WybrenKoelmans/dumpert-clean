@@ -11,7 +11,7 @@
 
 /* jshint esversion: 6 */
 
-const bannedWords = ['complot', 'wappie', 'vaccin', 'n.+afrika', 'blank', 'autochtone', 'volk', 'kans.*parel', 'dit soort volk', 'Android', 'fin', 'reclame', 'finnen', 'finse', 'homo', 'wolla', 'Marokko', 'Marokaan', 'Turk', 'Erdogan', 'weggejorist' ,'neger', 'jood', 'joden', 'hoer', 'bontkraag', 'bondkraag', 'nektasje', 'BLM', '\\*\\*\\*'];
+const bannedWords = ['5g', 'complot', 'wappie', 'vaccin', 'n.+afrika', 'blank', 'autochtone', 'volk', 'kans.*parel', 'dit soort volk', 'Android', 'fin', 'reclame', 'finnen', 'finse', 'homo', 'wolla', 'Marokko', 'Marokaan', 'Turk', 'Erdogan', 'weggejorist' ,'neger', 'jood', 'joden', 'hoer', 'bontkraag', 'bondkraag', 'nektasje', 'BLM', '\\*\\*\\*'];
 
 let badWords = 0;
 let lowScore = 0;
