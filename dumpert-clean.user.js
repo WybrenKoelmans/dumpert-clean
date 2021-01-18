@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dumpert cleaner
 // @namespace    http://tampermonkey.net/
-// @version      1.0.2
+// @version      1.0.3
 // @description  Get rid of negative comments on Dumpert. Discussions about what should be banned and should not be, will be ignored.
 // @author       Wybren Koelmans
 // @match        https://www.dumpert.nl/*
@@ -11,7 +11,7 @@
 
 /* jshint esversion: 6 */
 
-const bannedWords = ['5g', 'complot', 'wappie', 'vaccin', 'n.+afrika', 'blank', 'autochtone', 'volk', 'kans.*parel', 'dit soort volk', 'Android', 'fin', 'reclame', 'finnen', 'finse', 'homo', 'wolla', 'Marokko', 'Marokaan', 'Turk', 'Erdogan', 'weggejorist' ,'neger', 'jood', 'joden', 'hoer', 'bontkraag', 'bondkraag', 'nektasje', 'BLM', '\\*\\*\\*'];
+const bannedWords = ['Jetten', 'Wilders', '5g', 'complot', 'wappie', 'vaccin', 'n.+afrika', 'blank', 'autochtone', 'volk', 'kans.*parel', 'dit soort volk', 'Android', 'fin', 'reclame', 'finnen', 'finse', 'homo', 'wolla', 'Marokko', 'Marokaan', 'Turk', 'Erdogan', 'weggejorist' ,'neger', 'jood', 'joden', 'hoer', 'bontkraag', 'bondkraag', 'nektasje', 'BLM', '\\*\\*\\*'];
 
 let badWords = 0;
 let lowScore = 0;
