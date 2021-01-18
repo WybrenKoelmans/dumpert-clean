@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dumpert cleaner
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.0.1
 // @description  Get rid of negative comments on Dumpert. Discussions about what should be banned and should not be, will be ignored.
 // @author       Wybren Koelmans
 // @match        https://www.dumpert.nl/*
